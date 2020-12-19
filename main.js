@@ -7,7 +7,7 @@ const bot = new Telegraf(set.bot_api_key)
 bot.start(async(ctx) => {
     ctx.replyWithHTML("<em>Welcome to <b>Kutt It Bot 🔗</b></em>\n\n<code>Send a Link to Shorten it with Kutt It.</code>\n\n/help for more info")
 })
-bot.command('help', (ctx) => ctx.replyWithHTML("💁‍♂️ Send a Link To Shorten it with Kutt It.\n\n<b><u>Example</u> 👇</b>\n\n<code>https://thetuhin.com</code>\n\n<code>If you have encountered any issue kindly report it at </code>@t_projects"));
+bot.command('help', (ctx) => ctx.replyWithHTML("💁‍♂️ Send a Link To Shorten it with Kutt It.\n\n<b><u>Example</u> 👇</b>\n\n<code>https://song.seshu.co</code>\n\n<code>If you have encountered any issue kindly report it to </code>@siamyss"));
 
 bot.on('message', async(ctx) => {
     var message = ctx.message.text
